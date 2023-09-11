@@ -40,6 +40,27 @@ section {
 
 /* Add your specific styling here */
 
+.header-content {
+    background-color: #007BFF;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.header-image img {
+    max-width: 100px; /* Adjust the size as needed */
+    border-radius: 50%; /* Makes the image round, adjust as needed */
+    margin-right: 20px; /* Adds some space between the image and text */
+}
+
+.header-text {
+    text-align: left;
+}
+
+/* Rest of your CSS */
+
+
 footer {
     text-align: center;
     background-color: #333;
